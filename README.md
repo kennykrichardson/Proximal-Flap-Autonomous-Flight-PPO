@@ -50,6 +50,22 @@ The environment includes:
 - A PPO-trained reinforcement-learning controller.
 - Persistent high scores and automated per-run logging.
 
+## 🕹️ Gameplay
+
+| Key / input | Action |
+|---|---|
+| `1` | Manual mode |
+| `2` | SoloPilot deterministic controller |
+| `3` or `M` | PPO AI |
+| `A` | Toggle Manual / SoloPilot |
+| `SPACE`, `UP`, or left click | Flap in Manual mode |
+| `P` | Pause / resume |
+| `R` | Start a fresh run immediately |
+| `H` | Open / close the controls panel |
+| `ESC` | Close the panel, or quit the game |
+
+The current gameplay entry point loads the V2 checkpoint when the model and optional AI dependencies are available. If the model cannot be loaded, the game falls back to SoloPilot. The best score is persisted in `data/best_score.json`.
+
 ## ✨ Highlights
 
 | Area | Implementation |
@@ -271,22 +287,6 @@ python -m pip install -r requirements-ai.txt
 ```
 
 The game can still be used for manual or SoloPilot gameplay without the optional AI dependencies.
-
-## 🕹️ Gameplay
-
-| Key / input | Action |
-|---|---|
-| `1` | Manual mode |
-| `2` | SoloPilot deterministic controller |
-| `3` or `M` | PPO AI |
-| `A` | Toggle Manual / SoloPilot |
-| `SPACE`, `UP`, or left click | Flap in Manual mode |
-| `P` | Pause / resume |
-| `R` | Start a fresh run immediately |
-| `H` | Open / close the controls panel |
-| `ESC` | Close the panel, or quit the game |
-
-The current gameplay entry point loads the V2 checkpoint when the model and optional AI dependencies are available. If the model cannot be loaded, the game falls back to SoloPilot. The best score is persisted in `data/best_score.json`.
 
 ## 🧪 Training and evaluation commands
 
