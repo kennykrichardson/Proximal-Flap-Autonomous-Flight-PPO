@@ -1,0 +1,1228 @@
+{
+  "model": "ai\\checkpoints\\ppo_proximal_flap.zip",
+  "seed_range": [
+    10000,
+    10099
+  ],
+  "max_frames": 30000,
+  "ppo": {
+    "episodes": 100,
+    "mean": 60.34,
+    "median": 48.0,
+    "p90": 106.10000000000001,
+    "best": 165,
+    "worst": 22,
+    "mean_frames": 3328.4
+  },
+  "solo_pilot": {
+    "episodes": 100,
+    "mean": 47.8,
+    "median": 44.0,
+    "p90": 69.20000000000002,
+    "best": 207,
+    "worst": 19,
+    "mean_frames": 2722.44
+  },
+  "per_seed": [
+    {
+      "seed": 10000,
+      "ppo": {
+        "score": 33,
+        "frames": 2030,
+        "course_seed": 714763379
+      },
+      "solo_pilot": {
+        "score": 39,
+        "frames": 2316
+      }
+    },
+    {
+      "seed": 10001,
+      "ppo": {
+        "score": 72,
+        "frames": 3878,
+        "course_seed": 1929423187
+      },
+      "solo_pilot": {
+        "score": 19,
+        "frames": 1271
+      }
+    },
+    {
+      "seed": 10002,
+      "ppo": {
+        "score": 68,
+        "frames": 3709,
+        "course_seed": 3991743107
+      },
+      "solo_pilot": {
+        "score": 37,
+        "frames": 2214
+      }
+    },
+    {
+      "seed": 10003,
+      "ppo": {
+        "score": 45,
+        "frames": 2603,
+        "course_seed": 1365537892
+      },
+      "solo_pilot": {
+        "score": 38,
+        "frames": 2293
+      }
+    },
+    {
+      "seed": 10004,
+      "ppo": {
+        "score": 125,
+        "frames": 6431,
+        "course_seed": 1724952298
+      },
+      "solo_pilot": {
+        "score": 22,
+        "frames": 1429
+      }
+    },
+    {
+      "seed": 10005,
+      "ppo": {
+        "score": 112,
+        "frames": 5822,
+        "course_seed": 1440180187
+      },
+      "solo_pilot": {
+        "score": 49,
+        "frames": 2805
+      }
+    },
+    {
+      "seed": 10006,
+      "ppo": {
+        "score": 24,
+        "frames": 1543,
+        "course_seed": 1548180813
+      },
+      "solo_pilot": {
+        "score": 108,
+        "frames": 5611
+      }
+    },
+    {
+      "seed": 10007,
+      "ppo": {
+        "score": 33,
+        "frames": 2018,
+        "course_seed": 644226610
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2045
+      }
+    },
+    {
+      "seed": 10008,
+      "ppo": {
+        "score": 44,
+        "frames": 2545,
+        "course_seed": 1954283738
+      },
+      "solo_pilot": {
+        "score": 77,
+        "frames": 4101
+      }
+    },
+    {
+      "seed": 10009,
+      "ppo": {
+        "score": 39,
+        "frames": 2320,
+        "course_seed": 3419508521
+      },
+      "solo_pilot": {
+        "score": 58,
+        "frames": 3213
+      }
+    },
+    {
+      "seed": 10010,
+      "ppo": {
+        "score": 55,
+        "frames": 3055,
+        "course_seed": 2753544746
+      },
+      "solo_pilot": {
+        "score": 57,
+        "frames": 3185
+      }
+    },
+    {
+      "seed": 10011,
+      "ppo": {
+        "score": 83,
+        "frames": 4415,
+        "course_seed": 3144026604
+      },
+      "solo_pilot": {
+        "score": 54,
+        "frames": 3019
+      }
+    },
+    {
+      "seed": 10012,
+      "ppo": {
+        "score": 106,
+        "frames": 5538,
+        "course_seed": 2272116951
+      },
+      "solo_pilot": {
+        "score": 31,
+        "frames": 1899
+      }
+    },
+    {
+      "seed": 10013,
+      "ppo": {
+        "score": 46,
+        "frames": 2637,
+        "course_seed": 2016532068
+      },
+      "solo_pilot": {
+        "score": 62,
+        "frames": 3431
+      }
+    },
+    {
+      "seed": 10014,
+      "ppo": {
+        "score": 38,
+        "frames": 2254,
+        "course_seed": 901211990
+      },
+      "solo_pilot": {
+        "score": 48,
+        "frames": 2728
+      }
+    },
+    {
+      "seed": 10015,
+      "ppo": {
+        "score": 31,
+        "frames": 1903,
+        "course_seed": 3734713218
+      },
+      "solo_pilot": {
+        "score": 75,
+        "frames": 4023
+      }
+    },
+    {
+      "seed": 10016,
+      "ppo": {
+        "score": 98,
+        "frames": 5101,
+        "course_seed": 3009143297
+      },
+      "solo_pilot": {
+        "score": 62,
+        "frames": 3409
+      }
+    },
+    {
+      "seed": 10017,
+      "ppo": {
+        "score": 37,
+        "frames": 2206,
+        "course_seed": 4046464292
+      },
+      "solo_pilot": {
+        "score": 54,
+        "frames": 3021
+      }
+    },
+    {
+      "seed": 10018,
+      "ppo": {
+        "score": 66,
+        "frames": 3617,
+        "course_seed": 2919794419
+      },
+      "solo_pilot": {
+        "score": 38,
+        "frames": 2246
+      }
+    },
+    {
+      "seed": 10019,
+      "ppo": {
+        "score": 38,
+        "frames": 2243,
+        "course_seed": 2753506618
+      },
+      "solo_pilot": {
+        "score": 33,
+        "frames": 2017
+      }
+    },
+    {
+      "seed": 10020,
+      "ppo": {
+        "score": 48,
+        "frames": 2746,
+        "course_seed": 574634872
+      },
+      "solo_pilot": {
+        "score": 44,
+        "frames": 2534
+      }
+    },
+    {
+      "seed": 10021,
+      "ppo": {
+        "score": 95,
+        "frames": 4983,
+        "course_seed": 642672355
+      },
+      "solo_pilot": {
+        "score": 32,
+        "frames": 1968
+      }
+    },
+    {
+      "seed": 10022,
+      "ppo": {
+        "score": 40,
+        "frames": 2327,
+        "course_seed": 3093462434
+      },
+      "solo_pilot": {
+        "score": 65,
+        "frames": 3548
+      }
+    },
+    {
+      "seed": 10023,
+      "ppo": {
+        "score": 42,
+        "frames": 2421,
+        "course_seed": 514419341
+      },
+      "solo_pilot": {
+        "score": 59,
+        "frames": 3258
+      }
+    },
+    {
+      "seed": 10024,
+      "ppo": {
+        "score": 70,
+        "frames": 3763,
+        "course_seed": 1951694283
+      },
+      "solo_pilot": {
+        "score": 43,
+        "frames": 2509
+      }
+    },
+    {
+      "seed": 10025,
+      "ppo": {
+        "score": 65,
+        "frames": 3543,
+        "course_seed": 2188232678
+      },
+      "solo_pilot": {
+        "score": 36,
+        "frames": 2140
+      }
+    },
+    {
+      "seed": 10026,
+      "ppo": {
+        "score": 50,
+        "frames": 2854,
+        "course_seed": 2524185425
+      },
+      "solo_pilot": {
+        "score": 43,
+        "frames": 2498
+      }
+    },
+    {
+      "seed": 10027,
+      "ppo": {
+        "score": 107,
+        "frames": 5591,
+        "course_seed": 367457026
+      },
+      "solo_pilot": {
+        "score": 62,
+        "frames": 3398
+      }
+    },
+    {
+      "seed": 10028,
+      "ppo": {
+        "score": 27,
+        "frames": 1712,
+        "course_seed": 1141720823
+      },
+      "solo_pilot": {
+        "score": 44,
+        "frames": 2498
+      }
+    },
+    {
+      "seed": 10029,
+      "ppo": {
+        "score": 41,
+        "frames": 2389,
+        "course_seed": 486509365
+      },
+      "solo_pilot": {
+        "score": 45,
+        "frames": 2606
+      }
+    },
+    {
+      "seed": 10030,
+      "ppo": {
+        "score": 39,
+        "frames": 2291,
+        "course_seed": 924365700
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2060
+      }
+    },
+    {
+      "seed": 10031,
+      "ppo": {
+        "score": 94,
+        "frames": 4941,
+        "course_seed": 626019214
+      },
+      "solo_pilot": {
+        "score": 83,
+        "frames": 4384
+      }
+    },
+    {
+      "seed": 10032,
+      "ppo": {
+        "score": 38,
+        "frames": 2261,
+        "course_seed": 3088711909
+      },
+      "solo_pilot": {
+        "score": 46,
+        "frames": 2646
+      }
+    },
+    {
+      "seed": 10033,
+      "ppo": {
+        "score": 38,
+        "frames": 2250,
+        "course_seed": 3389708357
+      },
+      "solo_pilot": {
+        "score": 42,
+        "frames": 2455
+      }
+    },
+    {
+      "seed": 10034,
+      "ppo": {
+        "score": 80,
+        "frames": 4260,
+        "course_seed": 3521122907
+      },
+      "solo_pilot": {
+        "score": 47,
+        "frames": 2684
+      }
+    },
+    {
+      "seed": 10035,
+      "ppo": {
+        "score": 50,
+        "frames": 2854,
+        "course_seed": 2033906595
+      },
+      "solo_pilot": {
+        "score": 53,
+        "frames": 2971
+      }
+    },
+    {
+      "seed": 10036,
+      "ppo": {
+        "score": 40,
+        "frames": 2357,
+        "course_seed": 2473229607
+      },
+      "solo_pilot": {
+        "score": 31,
+        "frames": 1924
+      }
+    },
+    {
+      "seed": 10037,
+      "ppo": {
+        "score": 38,
+        "frames": 2267,
+        "course_seed": 455927387
+      },
+      "solo_pilot": {
+        "score": 48,
+        "frames": 2741
+      }
+    },
+    {
+      "seed": 10038,
+      "ppo": {
+        "score": 112,
+        "frames": 5855,
+        "course_seed": 2204828184
+      },
+      "solo_pilot": {
+        "score": 112,
+        "frames": 5826
+      }
+    },
+    {
+      "seed": 10039,
+      "ppo": {
+        "score": 118,
+        "frames": 6115,
+        "course_seed": 1313918340
+      },
+      "solo_pilot": {
+        "score": 46,
+        "frames": 2602
+      }
+    },
+    {
+      "seed": 10040,
+      "ppo": {
+        "score": 32,
+        "frames": 1972,
+        "course_seed": 954417364
+      },
+      "solo_pilot": {
+        "score": 67,
+        "frames": 3652
+      }
+    },
+    {
+      "seed": 10041,
+      "ppo": {
+        "score": 35,
+        "frames": 2096,
+        "course_seed": 2395140952
+      },
+      "solo_pilot": {
+        "score": 77,
+        "frames": 4125
+      }
+    },
+    {
+      "seed": 10042,
+      "ppo": {
+        "score": 31,
+        "frames": 1877,
+        "course_seed": 2739135522
+      },
+      "solo_pilot": {
+        "score": 82,
+        "frames": 4391
+      }
+    },
+    {
+      "seed": 10043,
+      "ppo": {
+        "score": 36,
+        "frames": 2172,
+        "course_seed": 2030948842
+      },
+      "solo_pilot": {
+        "score": 64,
+        "frames": 3498
+      }
+    },
+    {
+      "seed": 10044,
+      "ppo": {
+        "score": 72,
+        "frames": 3878,
+        "course_seed": 588608525
+      },
+      "solo_pilot": {
+        "score": 42,
+        "frames": 2446
+      }
+    },
+    {
+      "seed": 10045,
+      "ppo": {
+        "score": 35,
+        "frames": 2094,
+        "course_seed": 1217277538
+      },
+      "solo_pilot": {
+        "score": 58,
+        "frames": 3208
+      }
+    },
+    {
+      "seed": 10046,
+      "ppo": {
+        "score": 56,
+        "frames": 3134,
+        "course_seed": 2316307858
+      },
+      "solo_pilot": {
+        "score": 44,
+        "frames": 2551
+      }
+    },
+    {
+      "seed": 10047,
+      "ppo": {
+        "score": 165,
+        "frames": 8349,
+        "course_seed": 311730717
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2067
+      }
+    },
+    {
+      "seed": 10048,
+      "ppo": {
+        "score": 66,
+        "frames": 3579,
+        "course_seed": 4015631560
+      },
+      "solo_pilot": {
+        "score": 45,
+        "frames": 2595
+      }
+    },
+    {
+      "seed": 10049,
+      "ppo": {
+        "score": 66,
+        "frames": 3609,
+        "course_seed": 964360785
+      },
+      "solo_pilot": {
+        "score": 23,
+        "frames": 1496
+      }
+    },
+    {
+      "seed": 10050,
+      "ppo": {
+        "score": 39,
+        "frames": 2329,
+        "course_seed": 2642214478
+      },
+      "solo_pilot": {
+        "score": 33,
+        "frames": 2012
+      }
+    },
+    {
+      "seed": 10051,
+      "ppo": {
+        "score": 140,
+        "frames": 7201,
+        "course_seed": 2826584696
+      },
+      "solo_pilot": {
+        "score": 51,
+        "frames": 2882
+      }
+    },
+    {
+      "seed": 10052,
+      "ppo": {
+        "score": 129,
+        "frames": 6600,
+        "course_seed": 1373138382
+      },
+      "solo_pilot": {
+        "score": 41,
+        "frames": 2410
+      }
+    },
+    {
+      "seed": 10053,
+      "ppo": {
+        "score": 44,
+        "frames": 2534,
+        "course_seed": 1212685721
+      },
+      "solo_pilot": {
+        "score": 68,
+        "frames": 3686
+      }
+    },
+    {
+      "seed": 10054,
+      "ppo": {
+        "score": 75,
+        "frames": 4005,
+        "course_seed": 3593116260
+      },
+      "solo_pilot": {
+        "score": 33,
+        "frames": 2013
+      }
+    },
+    {
+      "seed": 10055,
+      "ppo": {
+        "score": 27,
+        "frames": 1702,
+        "course_seed": 3438206285
+      },
+      "solo_pilot": {
+        "score": 37,
+        "frames": 2205
+      }
+    },
+    {
+      "seed": 10056,
+      "ppo": {
+        "score": 98,
+        "frames": 5137,
+        "course_seed": 2894840079
+      },
+      "solo_pilot": {
+        "score": 47,
+        "frames": 2669
+      }
+    },
+    {
+      "seed": 10057,
+      "ppo": {
+        "score": 56,
+        "frames": 3135,
+        "course_seed": 4217762089
+      },
+      "solo_pilot": {
+        "score": 39,
+        "frames": 2303
+      }
+    },
+    {
+      "seed": 10058,
+      "ppo": {
+        "score": 46,
+        "frames": 2663,
+        "course_seed": 1448102089
+      },
+      "solo_pilot": {
+        "score": 37,
+        "frames": 2196
+      }
+    },
+    {
+      "seed": 10059,
+      "ppo": {
+        "score": 41,
+        "frames": 2404,
+        "course_seed": 613479499
+      },
+      "solo_pilot": {
+        "score": 53,
+        "frames": 3004
+      }
+    },
+    {
+      "seed": 10060,
+      "ppo": {
+        "score": 39,
+        "frames": 2307,
+        "course_seed": 681673975
+      },
+      "solo_pilot": {
+        "score": 207,
+        "frames": 10374
+      }
+    },
+    {
+      "seed": 10061,
+      "ppo": {
+        "score": 97,
+        "frames": 5074,
+        "course_seed": 157836467
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2073
+      }
+    },
+    {
+      "seed": 10062,
+      "ppo": {
+        "score": 54,
+        "frames": 3025,
+        "course_seed": 1393535518
+      },
+      "solo_pilot": {
+        "score": 53,
+        "frames": 2960
+      }
+    },
+    {
+      "seed": 10063,
+      "ppo": {
+        "score": 45,
+        "frames": 2606,
+        "course_seed": 491265492
+      },
+      "solo_pilot": {
+        "score": 60,
+        "frames": 3302
+      }
+    },
+    {
+      "seed": 10064,
+      "ppo": {
+        "score": 68,
+        "frames": 3723,
+        "course_seed": 982060408
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2046
+      }
+    },
+    {
+      "seed": 10065,
+      "ppo": {
+        "score": 41,
+        "frames": 2388,
+        "course_seed": 464231996
+      },
+      "solo_pilot": {
+        "score": 44,
+        "frames": 2567
+      }
+    },
+    {
+      "seed": 10066,
+      "ppo": {
+        "score": 95,
+        "frames": 5016,
+        "course_seed": 672072697
+      },
+      "solo_pilot": {
+        "score": 45,
+        "frames": 2609
+      }
+    },
+    {
+      "seed": 10067,
+      "ppo": {
+        "score": 38,
+        "frames": 2258,
+        "course_seed": 3504722565
+      },
+      "solo_pilot": {
+        "score": 71,
+        "frames": 3874
+      }
+    },
+    {
+      "seed": 10068,
+      "ppo": {
+        "score": 38,
+        "frames": 2266,
+        "course_seed": 3690938958
+      },
+      "solo_pilot": {
+        "score": 35,
+        "frames": 2123
+      }
+    },
+    {
+      "seed": 10069,
+      "ppo": {
+        "score": 135,
+        "frames": 6901,
+        "course_seed": 1181763145
+      },
+      "solo_pilot": {
+        "score": 73,
+        "frames": 3927
+      }
+    },
+    {
+      "seed": 10070,
+      "ppo": {
+        "score": 49,
+        "frames": 2802,
+        "course_seed": 475344912
+      },
+      "solo_pilot": {
+        "score": 37,
+        "frames": 2217
+      }
+    },
+    {
+      "seed": 10071,
+      "ppo": {
+        "score": 35,
+        "frames": 2123,
+        "course_seed": 3031126060
+      },
+      "solo_pilot": {
+        "score": 24,
+        "frames": 1542
+      }
+    },
+    {
+      "seed": 10072,
+      "ppo": {
+        "score": 22,
+        "frames": 1454,
+        "course_seed": 3299100902
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2073
+      }
+    },
+    {
+      "seed": 10073,
+      "ppo": {
+        "score": 34,
+        "frames": 2065,
+        "course_seed": 3466580730
+      },
+      "solo_pilot": {
+        "score": 44,
+        "frames": 2553
+      }
+    },
+    {
+      "seed": 10074,
+      "ppo": {
+        "score": 30,
+        "frames": 1880,
+        "course_seed": 164282743
+      },
+      "solo_pilot": {
+        "score": 45,
+        "frames": 2568
+      }
+    },
+    {
+      "seed": 10075,
+      "ppo": {
+        "score": 77,
+        "frames": 4124,
+        "course_seed": 2254354658
+      },
+      "solo_pilot": {
+        "score": 44,
+        "frames": 2557
+      }
+    },
+    {
+      "seed": 10076,
+      "ppo": {
+        "score": 44,
+        "frames": 2549,
+        "course_seed": 3296208928
+      },
+      "solo_pilot": {
+        "score": 65,
+        "frames": 3547
+      }
+    },
+    {
+      "seed": 10077,
+      "ppo": {
+        "score": 34,
+        "frames": 2069,
+        "course_seed": 1343805487
+      },
+      "solo_pilot": {
+        "score": 28,
+        "frames": 1768
+      }
+    },
+    {
+      "seed": 10078,
+      "ppo": {
+        "score": 90,
+        "frames": 4726,
+        "course_seed": 2359187567
+      },
+      "solo_pilot": {
+        "score": 37,
+        "frames": 2190
+      }
+    },
+    {
+      "seed": 10079,
+      "ppo": {
+        "score": 38,
+        "frames": 2245,
+        "course_seed": 3214960166
+      },
+      "solo_pilot": {
+        "score": 33,
+        "frames": 2000
+      }
+    },
+    {
+      "seed": 10080,
+      "ppo": {
+        "score": 71,
+        "frames": 3810,
+        "course_seed": 229222256
+      },
+      "solo_pilot": {
+        "score": 27,
+        "frames": 1707
+      }
+    },
+    {
+      "seed": 10081,
+      "ppo": {
+        "score": 61,
+        "frames": 3374,
+        "course_seed": 2005355933
+      },
+      "solo_pilot": {
+        "score": 36,
+        "frames": 2178
+      }
+    },
+    {
+      "seed": 10082,
+      "ppo": {
+        "score": 69,
+        "frames": 3786,
+        "course_seed": 955961678
+      },
+      "solo_pilot": {
+        "score": 51,
+        "frames": 2872
+      }
+    },
+    {
+      "seed": 10083,
+      "ppo": {
+        "score": 32,
+        "frames": 1957,
+        "course_seed": 3568416280
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2068
+      }
+    },
+    {
+      "seed": 10084,
+      "ppo": {
+        "score": 30,
+        "frames": 1873,
+        "course_seed": 619468216
+      },
+      "solo_pilot": {
+        "score": 32,
+        "frames": 1968
+      }
+    },
+    {
+      "seed": 10085,
+      "ppo": {
+        "score": 51,
+        "frames": 2895,
+        "course_seed": 2504200942
+      },
+      "solo_pilot": {
+        "score": 36,
+        "frames": 2163
+      }
+    },
+    {
+      "seed": 10086,
+      "ppo": {
+        "score": 44,
+        "frames": 2538,
+        "course_seed": 4279429025
+      },
+      "solo_pilot": {
+        "score": 69,
+        "frames": 3744
+      }
+    },
+    {
+      "seed": 10087,
+      "ppo": {
+        "score": 48,
+        "frames": 2764,
+        "course_seed": 207575917
+      },
+      "solo_pilot": {
+        "score": 33,
+        "frames": 2032
+      }
+    },
+    {
+      "seed": 10088,
+      "ppo": {
+        "score": 36,
+        "frames": 2157,
+        "course_seed": 453433908
+      },
+      "solo_pilot": {
+        "score": 35,
+        "frames": 2084
+      }
+    },
+    {
+      "seed": 10089,
+      "ppo": {
+        "score": 65,
+        "frames": 3572,
+        "course_seed": 2095118122
+      },
+      "solo_pilot": {
+        "score": 39,
+        "frames": 2319
+      }
+    },
+    {
+      "seed": 10090,
+      "ppo": {
+        "score": 54,
+        "frames": 3030,
+        "course_seed": 3115511957
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2071
+      }
+    },
+    {
+      "seed": 10091,
+      "ppo": {
+        "score": 65,
+        "frames": 3545,
+        "course_seed": 218858111
+      },
+      "solo_pilot": {
+        "score": 47,
+        "frames": 2676
+      }
+    },
+    {
+      "seed": 10092,
+      "ppo": {
+        "score": 33,
+        "frames": 2024,
+        "course_seed": 2384476419
+      },
+      "solo_pilot": {
+        "score": 46,
+        "frames": 2625
+      }
+    },
+    {
+      "seed": 10093,
+      "ppo": {
+        "score": 44,
+        "frames": 2537,
+        "course_seed": 1452600887
+      },
+      "solo_pilot": {
+        "score": 22,
+        "frames": 1454
+      }
+    },
+    {
+      "seed": 10094,
+      "ppo": {
+        "score": 106,
+        "frames": 5495,
+        "course_seed": 3454282690
+      },
+      "solo_pilot": {
+        "score": 40,
+        "frames": 2366
+      }
+    },
+    {
+      "seed": 10095,
+      "ppo": {
+        "score": 97,
+        "frames": 5115,
+        "course_seed": 4206908917
+      },
+      "solo_pilot": {
+        "score": 32,
+        "frames": 1970
+      }
+    },
+    {
+      "seed": 10096,
+      "ppo": {
+        "score": 130,
+        "frames": 6666,
+        "course_seed": 599830326
+      },
+      "solo_pilot": {
+        "score": 45,
+        "frames": 2596
+      }
+    },
+    {
+      "seed": 10097,
+      "ppo": {
+        "score": 50,
+        "frames": 2834,
+        "course_seed": 2668840948
+      },
+      "solo_pilot": {
+        "score": 23,
+        "frames": 1494
+      }
+    },
+    {
+      "seed": 10098,
+      "ppo": {
+        "score": 94,
+        "frames": 4942,
+        "course_seed": 1418534029
+      },
+      "solo_pilot": {
+        "score": 34,
+        "frames": 2043
+      }
+    },
+    {
+      "seed": 10099,
+      "ppo": {
+        "score": 37,
+        "frames": 2207,
+        "course_seed": 1183830263
+      },
+      "solo_pilot": {
+        "score": 33,
+        "frames": 2009
+      }
+    }
+  ]
+}
