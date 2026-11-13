@@ -1,5 +1,3 @@
-"""Launch PROXIMAL FLAP: SOLO."""
-
 from __future__ import annotations
 
 import pygame
@@ -19,7 +17,6 @@ from game.renderer import Renderer
 from game.world import GameWorld
 from storage import ScoreStore
 
-# AI dependencies are optional for ordinary human/SoloPilot gameplay.
 try:
     from ai.agent import PPOBirdAgent
     from ai.observations_v2 import observe_v2
@@ -79,8 +76,6 @@ class RunLogger:
 def main() -> int:
     pygame.init()
     pygame.display.set_caption("PROXIMAL FLAP: SOLO")
-    # Keep the original compact game window. The simulation and presentation
-    # both use the same 400x600 surface, with no desktop-sized scaling layer.
     screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
     clock = pygame.time.Clock()
 
@@ -101,7 +96,6 @@ def main() -> int:
     else:
         print("PPO pilot unavailable. Install requirements-ai.txt and ensure the champion checkpoint exists.")
 
-    # V2 is the default playable AI; use key 1 for manual or 2 for SoloPilot.
     control_mode = "ppo" if ppo_agent is not None else "solo"
     paused = False
     help_visible = False
