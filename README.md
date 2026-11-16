@@ -4,8 +4,6 @@
   A deterministic Flappy Bird-style simulation with autonomous control, PPO reinforcement learning, and reproducible evaluation.
 </p>
 
-🌐 **[Explore my Complete Portfolio](https://www.kennykrichardson.com)**
-
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
   <img alt="Pygame" src="https://img.shields.io/badge/Rendering-Pygame-3776AB?logo=pygame&logoColor=white">
@@ -16,6 +14,9 @@
 PROXIMAL FLAP: SOLO is a single-agent game and reinforcement-learning testbed. It combines a continuously generated obstacle course, deterministic simulation, multiple control strategies, and an evaluation workflow for comparing autonomous policies.
 
 The project began with a simple objective: make one bird survive a progressively difficult course. It has since grown into a small experimental environment for training, evaluating, and comparing reinforcement-learning controllers. The bird still has a habit of hitting pipes. Now we can measure how intelligently it does it.
+
+🌐 **[Explore my Complete Portfolio](https://www.kennykrichardson.com)**
+
 
 ---
 
