@@ -1,10 +1,10 @@
 # 🐦PROXIMAL FLAP: SOLO
 
 <p align="center">
-  <strong>One bird. One course. No two runs quite alike.</strong><br>
-  <em>Train it. Test it. Find out whether it can actually fly.</em><br>
   A deterministic Flappy Bird-style simulation with autonomous control, PPO reinforcement learning, and reproducible evaluation.
 </p>
+
+🌐 **[Explore my Complete Portfolio](https://www.kennykrichardson.com)**
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
